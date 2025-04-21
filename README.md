@@ -28,12 +28,12 @@ Before running the load test, ensure you have the following installed:
 ## Running the Test
 To start the load test, run the following command:
 ```sh
-python load_test_rps.py <target_url> <duration_seconds> <requests_per_second>
+python3 load_test_rps.py <target_url> <duration_seconds> <requests_per_second>
 ```
 
 Example:
 ```sh
-python load_test_rps.py https://api.example.com/endpoint 600 160
+python3 load_test_rps.py https://api.example.com/endpoint 600 160
 ```
 This will run a test against the specified URL for 600 seconds (10 minutes) at 160 requests per second.
 
