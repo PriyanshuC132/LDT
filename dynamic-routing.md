@@ -1,20 +1,3 @@
----
-page_title: Dynamic Routing
-product: Add-ons
-page_source: https://juspay.io/in/docs/add-ons/docs/dynamic-routing/dynamic-routing
-llms_txt: https://juspay.io/in/docs/llms.txt
-product_llms_txt: https://juspay.io/in/docs/add-ons/llms.txt
----
-
-
-# Dynamic Routing
-
-
-
-
-## Our approach
-
-
 
 It is important to understand JusPay's implementation of dynamic routing to be able to configure gateway priorities correctly for your Merchant Account. Our approach has been to ensure maximum conversion rate and the implementation reflects this. The dynamic routing algorithm uses a **non-deterministic mathematical model**  to rank all applicable gateways for the given transaction, using a lot of information, such as gateway health, gateway performance for a similar transaction recently, historical performance, etc.. Along with this, we take into account the priorities configured by you and arrive at the final gateway, such that the success probability is the highest.
 
